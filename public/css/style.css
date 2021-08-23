@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root{
+    --primary: #071a52;
+    --success: #a7ff83;
+    --theadColor: #379DAA;
+    --theadBG: #2A3E54;
+    --tbodyColor: #364f6b;
+    --tbodyBG: #88bef5;
+
+}
+
+.navbar, .btnInfo{
+    background-color: var(--primary) !important;
+}
+
+.navbar-brand, .nav-link, .textGreen{
+    color: var(--success) !important;
+}
+
+h1, .navbar{
+    font-family: 'Shippori Mincho B1', serif;
+    color: #17b978;
+}
+
+.dropdown-menu{
+    left: -100px !important;
+}
+
+thead{
+    background-color: var(--theadBG);
+    color: var(--theadColor);
+}
+
+tbody{
+    color: var(--tbodyColor) !important;
+    background-color: var(--tbodyBG) !important;
+}
